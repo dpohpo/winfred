@@ -1,0 +1,613 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+profile:
+    store-selected: true
+    tracing: false
+    store-fake-ip: false
+unified-delay: true
+hosts:
+    localhost.localhost: 127.0.0.1
+    
+dns:
+    enable: true
+    ipv6: false
+    listen: '0.0.0.0:1053'
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    nameserver: [223.5.5.5, 223.6.6.6]
+    fake-ip-filter: ['*.lan', localhost.ptlogin2.qq.com, dns.msftncsi.com, '*.srv.nintendo.net', '*.stun.playstation.net', 'xbox.*.microsoft.com', '*.xboxlive.com']
+proxies:
+    - { name: '0.08 GB | 850 GB', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: 'Traffic Reset: 25 Days Left', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: 'Expire Date: 2027-04-19', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨02', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨03', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16003', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨04', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16004', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨05', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16005', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨06', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16006', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨07', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16007', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨08', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16008', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨09', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16009', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨10', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨11', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16011', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨12', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16012', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨13', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16013', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨14', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16014', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇭🇰 Hong Kong丨15', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '16015', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨02', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨03', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17003', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨04', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17004', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨05', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17005', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨06', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17006', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨07', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17007', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨08', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17008', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨09', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17009', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇳 Taiwan丨10', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '17010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨02', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨03', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18003', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨04', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18004', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨05', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18005', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨06', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18006', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨07', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18007', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨08', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18008', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨09', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18009', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇸🇬 Singapore丨10', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '18010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨02', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨03', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19003', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨04', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19004', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨05', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19005', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨06', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19006', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨07', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19007', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨08', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19008', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨09', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19009', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇯🇵 Japan丨10', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '19010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨02', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨03', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20003', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨04', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20004', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨05', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20005', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨06', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20006', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨07', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20007', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨08', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20008', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨09', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20009', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇺🇸 United States丨10', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '20010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇰🇷 South Korea丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '21001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇨🇦 Canada丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '22002', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇬🇧 Great Britain丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '23001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇹🇷 Turkey丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '24001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇮🇳 India丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '25001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇳🇱 Netherlands丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '26001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇫🇷 France | 01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '27001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇩🇪 Germany | 01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '28001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇻🇳 Vietnam | 01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '29001', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇲🇾 Malaysia丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '29010', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇹🇭 Thailand丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '29015', cipher: aes-256-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: '🇵🇭 Philippines丨01', type: ss, server: J6ntNKvyWFyFI9nf.redug8dqjjktoapmdfmqymrvi0iupi.com, port: '29020', cipher: aes-128-gcm, password: 1ea09e79-f8ca-4880-9321-184481ccb7ee, udp: true }
+    - { name: aaitr, type: ss, server: 99.144.123.253, port: 35678, cipher: aes-256-gcm, password: "rYXmvuOJgQUYCGyeNkOeV6f+", udp: true, dialer-proxy: '🇨🇳 Taiwan丨01' }
+proxy-groups:
+    - { name: 金阳小天才, type: select, proxies: [Auto, '0.08 GB | 850 GB', 'Traffic Reset: 25 Days Left', 'Expire Date: 2027-04-19', '🇭🇰 Hong Kong丨01', '🇭🇰 Hong Kong丨02', '🇭🇰 Hong Kong丨03', '🇭🇰 Hong Kong丨04', '🇭🇰 Hong Kong丨05', '🇭🇰 Hong Kong丨06', '🇭🇰 Hong Kong丨07', '🇭🇰 Hong Kong丨08', '🇭🇰 Hong Kong丨09', '🇭🇰 Hong Kong丨10', '🇭🇰 Hong Kong丨11', '🇭🇰 Hong Kong丨12', '🇭🇰 Hong Kong丨13', '🇭🇰 Hong Kong丨14', '🇭🇰 Hong Kong丨15', '🇨🇳 Taiwan丨01', '🇨🇳 Taiwan丨02', '🇨🇳 Taiwan丨03', '🇨🇳 Taiwan丨04', '🇨🇳 Taiwan丨05', '🇨🇳 Taiwan丨06', '🇨🇳 Taiwan丨07', '🇨🇳 Taiwan丨08', '🇨🇳 Taiwan丨09', '🇨🇳 Taiwan丨10', '🇸🇬 Singapore丨01', '🇸🇬 Singapore丨02', '🇸🇬 Singapore丨03', '🇸🇬 Singapore丨04', '🇸🇬 Singapore丨05', '🇸🇬 Singapore丨06', '🇸🇬 Singapore丨07', '🇸🇬 Singapore丨08', '🇸🇬 Singapore丨09', '🇸🇬 Singapore丨10', '🇯🇵 Japan丨01', '🇯🇵 Japan丨02', '🇯🇵 Japan丨03', '🇯🇵 Japan丨04', '🇯🇵 Japan丨05', '🇯🇵 Japan丨06', '🇯🇵 Japan丨07', '🇯🇵 Japan丨08', '🇯🇵 Japan丨09', '🇯🇵 Japan丨10', '🇺🇸 United States丨01', '🇺🇸 United States丨02', '🇺🇸 United States丨03', '🇺🇸 United States丨04', '🇺🇸 United States丨05', '🇺🇸 United States丨06', '🇺🇸 United States丨07', '🇺🇸 United States丨08', '🇺🇸 United States丨09', '🇺🇸 United States丨10', '🇰🇷 South Korea丨01', '🇨🇦 Canada丨01', '🇬🇧 Great Britain丨01', '🇹🇷 Turkey丨01', '🇮🇳 India丨01', '🇳🇱 Netherlands丨01', '🇫🇷 France | 01', '🇩🇪 Germany | 01', '🇻🇳 Vietnam | 01', '🇲🇾 Malaysia丨01', '🇹🇭 Thailand丨01', '🇵🇭 Philippines丨01'] }
+    - { name: Auto, type: fallback, proxies: ['🇭🇰 Hong Kong', '🇨🇳 Taiwan', '🇯🇵 Japan', '🇰🇷 Korea', '🇸🇬 Singapore', '🇺🇸 United States', '🇨🇦 Canada', '🇬🇧 Great Britain', '🇹🇷 Turkey', '🇳🇱 Netherlands', '🇫🇷 France', '🇩🇪 Germany', '🇻🇳 Vietnam', '🇲🇾 Malaysia', '🇹🇭 Thailand', '🇮🇳 India', '🇵🇭 Philippines'], url: 'http://cp.cloudflare.com/generate_204', interval: 300 }
+    - { name: '🇭🇰 Hong Kong', type: select, proxies: ['🇭🇰 Hong Kong丨01', '🇭🇰 Hong Kong丨02', '🇭🇰 Hong Kong丨03', '🇭🇰 Hong Kong丨04', '🇭🇰 Hong Kong丨05', '🇭🇰 Hong Kong丨06', '🇭🇰 Hong Kong丨07', '🇭🇰 Hong Kong丨08', '🇭🇰 Hong Kong丨09', '🇭🇰 Hong Kong丨10', '🇭🇰 Hong Kong丨11', '🇭🇰 Hong Kong丨12', '🇭🇰 Hong Kong丨13', '🇭🇰 Hong Kong丨14', '🇭🇰 Hong Kong丨15'] }
+    - { name: '🇨🇳 Taiwan', type: select, proxies: ['🇨🇳 Taiwan丨01', '🇨🇳 Taiwan丨02', '🇨🇳 Taiwan丨03', '🇨🇳 Taiwan丨04', '🇨🇳 Taiwan丨05', '🇨🇳 Taiwan丨06', '🇨🇳 Taiwan丨07', '🇨🇳 Taiwan丨08', '🇨🇳 Taiwan丨09', '🇨🇳 Taiwan丨10'] }
+    - { name: '🇯🇵 Japan', type: select, proxies: ['🇯🇵 Japan丨01', '🇯🇵 Japan丨02', '🇯🇵 Japan丨03', '🇯🇵 Japan丨04', '🇯🇵 Japan丨05', '🇯🇵 Japan丨06', '🇯🇵 Japan丨07', '🇯🇵 Japan丨08', '🇯🇵 Japan丨09', '🇯🇵 Japan丨10'] }
+    - { name: '🇰🇷 Korea', type: select, proxies: ['🇰🇷 South Korea丨01'] }
+    - { name: '🇸🇬 Singapore', type: select, proxies: ['🇸🇬 Singapore丨01', '🇸🇬 Singapore丨02', '🇸🇬 Singapore丨03', '🇸🇬 Singapore丨04', '🇸🇬 Singapore丨05', '🇸🇬 Singapore丨06', '🇸🇬 Singapore丨07', '🇸🇬 Singapore丨08', '🇸🇬 Singapore丨09', '🇸🇬 Singapore丨10'] }
+    - { name: '🇨🇦 Canada', type: select, proxies: ['🇨🇦 Canada丨01'] }
+    - { name: '🇺🇸 United States', type: select, proxies: ['🇺🇸 United States丨01', '🇺🇸 United States丨02', '🇺🇸 United States丨03', '🇺🇸 United States丨04', '🇺🇸 United States丨05', '🇺🇸 United States丨06', '🇺🇸 United States丨07', '🇺🇸 United States丨08', '🇺🇸 United States丨09', '🇺🇸 United States丨10'] }
+    - { name: '🇬🇧 Great Britain', type: select, proxies: ['🇬🇧 Great Britain丨01'] }
+    - { name: '🇹🇷 Turkey', type: select, proxies: ['🇹🇷 Turkey丨01'] }
+    - { name: '🇳🇱 Netherlands', type: select, proxies: ['🇳🇱 Netherlands丨01'] }
+    - { name: '🇫🇷 France', type: select, proxies: ['🇫🇷 France | 01'] }
+    - { name: '🇩🇪 Germany', type: select, proxies: ['🇩🇪 Germany | 01'] }
+    - { name: '🇻🇳 Vietnam', type: select, proxies: ['🇻🇳 Vietnam | 01'] }
+    - { name: '🇲🇾 Malaysia', type: select, proxies: ['🇲🇾 Malaysia丨01'] }
+    - { name: '🇹🇭 Thailand', type: select, proxies: ['🇹🇭 Thailand丨01'] }
+    - { name: '🇮🇳 India', type: select, proxies: ['🇮🇳 India丨01'] }
+    - { name: '🇵🇭 Philippines', type: select, proxies: ['🇵🇭 Philippines丨01'] }
+rule-providers:
+    YouTube: { type: http, behavior: classical, url: 'https://api-gz.hosbbq.com/nus74f89st1/Y.yml', interval: 86400, path: ./ruleset/YouTube.yml }
+    SteamCN: { type: http, behavior: classical, url: 'https://api-gz.hosbbq.com/nus74f89st1/SC.yml', interval: 86400, path: ./ruleset/SteamCN.yml }
+    Bahamut: { type: http, behavior: classical, url: 'https://api-gz.hosbbq.com/nus74f89st1/Ba.yml', interval: 86400, path: ./ruleset/Bahamut.yml }
+    DMM: { type: http, behavior: classical, url: 'https://api-gz.hosbbq.com/nus74f89st1/DM.yml', interval: 86400, path: ./ruleset/DMM.yml }
+    ChinaMax: { type: http, behavior: classical, url: 'https://api-gz.hosbbq.com/nus74f89st1/C.yml', interval: 86400, path: ./ruleset/ChinaMax.yml }
+    CN: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml', interval: 86400, path: ./ruleset/cn.yaml }
+    Reject_Loyalsoldier: { type: http, behavior: classical, url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt', interval: 86400, path: ./ruleset/Reject_Loyalsoldier.list }
+    Reject_AWAvenue: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml', interval: 86400, path: ./ruleset/Reject_AWAvenue.yaml }
+    Reject_antiAD: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml', interval: 86400, path: ./ruleset/Reject_antiAD.yaml }
+    Reject_BlackMatrix7: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml', interval: 86400, path: ./ruleset/Reject_BlackMatrix7.yaml }
+    Reject_ACL4SSR_BanAD: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list', interval: 86400, path: ./ruleset/Reject_ACL4SSR_BanAD.list }
+    Reject_ACL4SSR_BanProgramAD: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list', interval: 86400, path: ./ruleset/Reject_ACL4SSR_BanProgramAD.list }
+    Reject_ACL4SSR_EasyListChina: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list', interval: 86400, path: ./ruleset/Reject_ACL4SSR_EasyListChina.list }
+    Reject_ACL4SSR_EasyList: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list', interval: 86400, path: ./ruleset/Reject_ACL4SSR_EasyList.list }
+    Reject_ACL4SSR_EasyPrivacy: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list', interval: 86400, path: ./ruleset/Reject_ACL4SSR_EasyPrivacy.list }
+    Reject_OISD_Small: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/zzzt27/clash-AdsBlock/main/oisd_small.txt', interval: 86400, path: ./ruleset/Reject_OISD_Small.list }
+    Reject_OISD_Big: { type: http, behavior: classical, url: 'https://raw.githubusercontent.com/zzzt27/clash-AdsBlock/main/oisd_big.txt', interval: 86400, path: ./ruleset/Reject_OISD_Big.list }
+
+
+rules:
+    - 'DOMAIN,dog.ssrdog.com,aaitr'
+    - RULE-SET,CN,DIRECT
+  # aaitr
+    - DOMAIN,servd-anthropic-website.b-cdn.net,aaitr
+    - DOMAIN-SUFFIX,anthropic.com,aaitr
+    - DOMAIN-SUFFIX,claude.ai,aaitr
+    - DOMAIN-SUFFIX,claude.com,aaitr
+    - DOMAIN-SUFFIX,claudeusercontent.com,aaitr
+    - DOMAIN-SUFFIX,claudemcpclient.com,aaitr
+    - DOMAIN-SUFFIX,x.ai,aaitr
+    - DOMAIN-SUFFIX,51cg3.com,🇨🇳 Taiwan丨01
+    - DOMAIN-SUFFIX,aaai.org,aaitr
+    - DOMAIN-SUFFIX,aclanthology.org,aaitr
+    - DOMAIN-SUFFIX,acm.org,aaitr
+    - DOMAIN-SUFFIX,ai.azure.com,aaitr
+    - DOMAIN-SUFFIX,ai.google,aaitr
+    - DOMAIN-SUFFIX,ai.meta.com,aaitr
+    - DOMAIN-SUFFIX,aistudio.google.com,aaitr
+    - DOMAIN-SUFFIX,amazon.com,aaitr
+    - DOMAIN-SUFFIX,anthropic.com,aaitr
+    - DOMAIN-SUFFIX,apnews.com,aaitr
+    - DOMAIN-SUFFIX,artstation.com,aaitr
+    - DOMAIN-SUFFIX,arxiv.org,aaitr
+    - DOMAIN-SUFFIX,askubuntu.com,aaitr
+    - DOMAIN-SUFFIX,aws.amazon.com,aaitr
+    - DOMAIN-SUFFIX,behance.net,aaitr
+    - DOMAIN-SUFFIX,bing.com,aaitr
+    - DOMAIN-SUFFIX,bloomberg.com,aaitr
+    - DOMAIN-SUFFIX,blueskyweb.xyz,aaitr
+    - DOMAIN-SUFFIX,bsky.app,aaitr
+    - DOMAIN-SUFFIX,change.org,aaitr
+    - DOMAIN-SUFFIX,character.ai,aaitr
+    - DOMAIN-SUFFIX,chat.openai.com,aaitr
+    - DOMAIN-SUFFIX,chatgpt.com,aaitr
+    - DOMAIN-SUFFIX,claude.ai,aaitr
+    - DOMAIN-SUFFIX,cloud.google.com,aaitr
+    - DOMAIN-SUFFIX,colab.research.google.com,aaitr
+    - DOMAIN-SUFFIX,copilot.microsoft.com,aaitr
+    - DOMAIN-SUFFIX,crates.io,aaitr
+    - DOMAIN-SUFFIX,deepmind.google,aaitr
+    - DOMAIN-SUFFIX,dev.to,aaitr
+    - DOMAIN-SUFFIX,deviantart.com,aaitr
+    - DOMAIN-SUFFIX,discord.com,aaitr
+    - DOMAIN-SUFFIX,dl.acm.org,aaitr
+    - DOMAIN-SUFFIX,duckduckgo.com,aaitr
+    - DOMAIN-SUFFIX,elevenlabs.io,aaitr
+    - DOMAIN-SUFFIX,en.wikipedia.org,aaitr
+    - DOMAIN-SUFFIX,en.wikinews.org,aaitr
+    - DOMAIN-SUFFIX,etsy.com,aaitr
+    - DOMAIN-SUFFIX,fandom.com,aaitr
+    - DOMAIN-SUFFIX,facebook.com,aaitr
+    - DOMAIN-SUFFIX,feedly.com,aaitr
+    - DOMAIN-SUFFIX,firefly.adobe.com,aaitr
+    - DOMAIN-SUFFIX,flipboard.com,aaitr
+    - DOMAIN-SUFFIX,gemini.google.com,aaitr
+    - DOMAIN-SUFFIX,g2.com,aaitr
+    - DOMAIN-SUFFIX,github.com,aaitr
+    - DOMAIN-SUFFIX,gitlab.com,aaitr
+    - DOMAIN-SUFFIX,go.dev,aaitr
+    - DOMAIN-SUFFIX,goodreads.com,aaitr
+    - DOMAIN-SUFFIX,google.com,aaitr
+    - DOMAIN-SUFFIX,groq.com,aaitr
+    - DOMAIN-SUFFIX,hashnode.com,aaitr
+    - DOMAIN-SUFFIX,hub.docker.com,aaitr
+    - DOMAIN-SUFFIX,huggingface.co,aaitr
+    - DOMAIN-SUFFIX,imgur.com,aaitr
+    - DOMAIN-SUFFIX,imdb.com,aaitr
+    - DOMAIN-SUFFIX,indiehackers.com,aaitr
+    - DOMAIN-SUFFIX,indiegogo.com,aaitr
+    - DOMAIN-SUFFIX,instagram.com,aaitr
+    - DOMAIN-SUFFIX,ieee.org,aaitr
+    - DOMAIN-SUFFIX,ieeexplore.ieee.org,aaitr
+    - DOMAIN-SUFFIX,kagi.com,aaitr
+    - DOMAIN-SUFFIX,kaggle.com,aaitr
+    - DOMAIN-SUFFIX,kickstarter.com,aaitr
+    - DOMAIN-SUFFIX,lifehacker.com,aaitr
+    - DOMAIN-SUFFIX,linkedin.com,aaitr
+    - DOMAIN-SUFFIX,linux.org,aaitr
+    - DOMAIN-SUFFIX,lmstudio.ai,aaitr
+    - DOMAIN-SUFFIX,lovart.ai,aaitr
+    - DOMAIN-SUFFIX,mathoverflow.net,aaitr
+    - DOMAIN-SUFFIX,medium.com,aaitr
+    - DOMAIN-SUFFIX,meetup.com,aaitr
+    - DOMAIN-SUFFIX,microsoft.com,aaitr
+    - DOMAIN-SUFFIX,midjourney.com,aaitr
+    - DOMAIN-SUFFIX,mongodb.com,aaitr
+    - DOMAIN-SUFFIX,mysql.com,aaitr
+    - DOMAIN-SUFFIX,news.google.com,aaitr
+    - DOMAIN-SUFFIX,news.ycombinator.com,aaitr
+    - DOMAIN-SUFFIX,nextdoor.com,aaitr
+    - DOMAIN-SUFFIX,nodejs.org,aaitr
+    - DOMAIN-SUFFIX,onnx.ai,aaitr
+    - DOMAIN-SUFFIX,ollama.com,aaitr
+    - DOMAIN-SUFFIX,openai.com,aaitr
+    - DOMAIN-SUFFIX,openreview.net,aaitr
+    - DOMAIN-SUFFIX,openrouter.ai,aaitr
+    - DOMAIN-SUFFIX,otter.ai,aaitr
+    - DOMAIN-SUFFIX,patreon.com,aaitr
+    - DOMAIN-SUFFIX,paperswithcode.com,aaitr
+    - DOMAIN-SUFFIX,perplexity.ai,aaitr
+    - DOMAIN-SUFFIX,phind.com,aaitr
+    - DOMAIN-SUFFIX,pi.ai,aaitr
+    - DOMAIN-SUFFIX,pika.art,aaitr
+    - DOMAIN-SUFFIX,pinterest.com,aaitr
+    - DOMAIN-SUFFIX,platform.openai.com,aaitr
+    - DOMAIN-SUFFIX,poe.com,aaitr
+    - DOMAIN-SUFFIX,postgresql.org,aaitr
+    - DOMAIN-SUFFIX,producthunt.com,aaitr
+    - DOMAIN-SUFFIX,pypi.org,aaitr
+    - DOMAIN-SUFFIX,quillbot.com,aaitr
+    - DOMAIN-SUFFIX,quora.com,aaitr
+    - DOMAIN-SUFFIX,redis.io,aaitr
+    - DOMAIN-SUFFIX,reddit.com,aaitr
+    - DOMAIN-SUFFIX,replika.com,aaitr
+    - DOMAIN-SUFFIX,replicate.com,aaitr
+    - DOMAIN-SUFFIX,runpod.io,aaitr
+    - DOMAIN-SUFFIX,runwayml.com,aaitr
+    - DOMAIN-SUFFIX,rubygems.org,aaitr
+    - DOMAIN-SUFFIX,rust-lang.org,aaitr
+    - DOMAIN-SUFFIX,scholar.google.com,aaitr
+    - DOMAIN-SUFFIX,search.brave.com,aaitr
+    - DOMAIN-SUFFIX,semanticscholar.org,aaitr
+    - DOMAIN-SUFFIX,serverfault.com,aaitr
+    - DOMAIN-SUFFIX,signal.org,aaitr
+    - DOMAIN-SUFFIX,slack.com,aaitr
+    - DOMAIN-SUFFIX,slashdot.org,aaitr
+    - DOMAIN-SUFFIX,snapchat.com,aaitr
+    - DOMAIN-SUFFIX,sourceforge.net,aaitr
+    - DOMAIN-SUFFIX,stackoverflow.com,aaitr
+    - DOMAIN-SUFFIX,substack.com,aaitr
+    - DOMAIN-SUFFIX,suno.com,aaitr
+    - DOMAIN-SUFFIX,superuser.com,aaitr
+    - DOMAIN-SUFFIX,ted.com,aaitr
+    - DOMAIN-SUFFIX,telegram.org,aaitr
+    - DOMAIN-SUFFIX,tensorflow.org,aaitr
+    - DOMAIN-SUFFIX,threads.net,aaitr
+    - DOMAIN-SUFFIX,tiktok.com,aaitr
+    - DOMAIN-SUFFIX,together.ai,aaitr
+    - DOMAIN-SUFFIX,tripadvisor.com,aaitr
+    - DOMAIN-SUFFIX,tumblr.com,aaitr
+    - DOMAIN-SUFFIX,twitch.tv,aaitr
+    - DOMAIN-SUFFIX,twitter.com,aaitr
+    - DOMAIN-SUFFIX,urbandictionary.com,aaitr
+    - DOMAIN-SUFFIX,vimeo.com,aaitr
+    - DOMAIN-SUFFIX,vercel.com,aaitr
+    - DOMAIN-SUFFIX,wikidata.org,aaitr
+    - DOMAIN-SUFFIX,wikihow.com,aaitr
+    - DOMAIN-SUFFIX,wolframalpha.com,aaitr
+    - DOMAIN-SUFFIX,wandb.ai,aaitr
+    - DOMAIN-SUFFIX,whatsapp.com,aaitr
+    - DOMAIN-SUFFIX,x.ai,aaitr
+    - DOMAIN-SUFFIX,x.com,aaitr
+    - DOMAIN-SUFFIX,yelp.com,aaitr
+    - DOMAIN-SUFFIX,you.com,aaitr
+    - DOMAIN-SUFFIX,youtube.com,aaitr
+
+  # 🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,9to5mac.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,abcnews.go.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,arstechnica.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,axios.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,baltimoresun.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,barrons.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,bostonglobe.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,businessinsider.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,cbsnews.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,cnbc.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,cnet.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,chicagotribune.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,cnn.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,computerworld.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,dallasnews.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,denverpost.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,digitaltrends.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,engadget.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,fastcompany.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,forbes.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,fool.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,fortune.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,foxnews.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,gizmodo.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,huffpost.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,howtogeek.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,infoworld.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,investopedia.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,latimes.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,macrumors.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,marketwatch.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,miamiherald.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,morningstar.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,msnbc.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,nbcnews.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,newsweek.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,npr.org,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,nydailynews.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,nypost.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,nytimes.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,ocregister.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,pbs.org,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,pcmag.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,philly.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,politico.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,propublica.org,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,sfchronicle.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,sfgate.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,seattletimes.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,seekingalpha.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,slate.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,startribune.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,techcrunch.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,thedailybeast.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,theatlantic.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,thehill.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,theinformation.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,theverge.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,time.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,tomshardware.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,usatoday.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,vanityfair.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,venturebeat.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,vox.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,washingtonpost.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,wired.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,wsj.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,zdnet.com,🇺🇸 United States丨01
+    - DOMAIN-SUFFIX,newyorker.com,🇺🇸 United States丨01
+
+  # 🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,cbc.ca,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,ctvnews.ca,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,globalnews.ca,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,ground.news,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,montrealgazette.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,nationalpost.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,reuters.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,thestar.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,theglobeandmail.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,vancouversun.com,🇨🇦 Canada丨01
+    - DOMAIN-SUFFIX,wattpad.com,🇨🇦 Canada丨01
+
+  # 🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,bbc.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,bbc.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,channel4.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,dailymail.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,dreamstudio.ai,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,economist.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,ft.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,independent.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,inews.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,itv.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,mirror.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,news.sky.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,newstatesman.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,spectator.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,standard.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,stability.ai,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,synthesia.io,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,techradar.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,telegraph.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,theguardian.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,theregister.com,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,thetimes.co.uk,🇬🇧 Great Britain
+    - DOMAIN-SUFFIX,thesun.co.uk,🇬🇧 Great Britain
+
+  # 🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,aftenposten.no,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,aftonbladet.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,ard.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,berlingske.dk,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,blick.ch,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,dagbladet.no,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,deepl.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,derstandard.at,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,dn.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,dpa.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,dr.dk,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,dw.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,expressen.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,faz.net,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,handelsblatt.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,hs.fi,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,joinmastodon.org,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,jyllands-posten.dk,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,mastodon.social,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,nrk.no,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,nzz.ch,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,open.spotify.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,orf.at,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,politiken.dk,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,ruv.is,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,rferl.org,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,soundcloud.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,spiegel.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,srf.ch,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,sr.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,svd.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,svt.se,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,sueddeutsche.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,tagesschau.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,tagesanzeiger.ch,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,trustpilot.com,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,vg.no,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,visir.is,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,welt.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,yle.fi,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,zeit.de,🇩🇪 Germany | 01
+    - DOMAIN-SUFFIX,zdf.de,🇩🇪 Germany | 01
+
+  # 🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,ad.nl,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,demorgen.be,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,euractiv.com,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,thenextweb.com,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,nos.nl,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,nrc.nl,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,nu.nl,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,politico.eu,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,standaard.be,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,telegraaf.nl,🇳🇱 Netherlands丨01
+    - DOMAIN-SUFFIX,volkskrant.nl,🇳🇱 Netherlands丨01
+
+  # 🇫🇷 France | 01
+    - DOMAIN-SUFFIX,abc.es,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,afp.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,ansa.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,bfmtv.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,corriere.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,dailymotion.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,efe.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,elespanol.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,elmundo.es,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,elpais.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,euronews.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,france24.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,francetvinfo.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,ilfattoquotidiano.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,ilsole24ore.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lavanguardia.com,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lefigaro.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lemonde.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lesechos.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lesoir.be,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,letemps.ch,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,liberation.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,lastampa.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,mistral.ai,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,rainews.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,repubblica.it,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,rfi.fr,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,rtbf.be,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,rtve.es,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,rts.ch,🇫🇷 France | 01
+    - DOMAIN-SUFFIX,tf1info.fr,🇫🇷 France | 01
+
+  # 🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,7news.com.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,9news.com.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,abc.net.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,atlassian.com,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,bitbucket.org,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,canva.com,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,confluence.com,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,jira.com,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,letterboxd.com,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,news.com.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,nzherald.co.nz,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,rnz.co.nz,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,smh.com.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,stuff.co.nz,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,theage.com.au,🇸🇬 Singapore丨01
+    - DOMAIN-SUFFIX,theaustralian.com.au,🇸🇬 Singapore丨01
+
+  # 🇭🇰 Hong Kong丨01
+    - DOMAIN-SUFFIX,9gag.com,🇭🇰 Hong Kong丨01
+    - DOMAIN,servd-anthropic-website.b-cdn.net,aaitr
+    - DOMAIN-SUFFIX,anthropic.com,aaitr
+    - DOMAIN-SUFFIX,claude.ai,aaitr
+    - DOMAIN-SUFFIX,claude.com,aaitr
+    - DOMAIN-SUFFIX,claudeusercontent.com,aaitr
+    - DOMAIN-SUFFIX,claudemcpclient.com,aaitr
+    - DOMAIN-SUFFIX,x.ai,aaitr
+    - DOMAIN-SUFFIX,51cg3.com,🇨🇳 Taiwan丨01
+    - 'DOMAIN,ic.adobe.io,REJECT'
+    - 'DOMAIN,dyzt55url8.adobe.io,REJECT'
+    - 'DOMAIN,gw8gfjbs05.adobe.io,REJECT'
+    - 'DOMAIN,0mo5a70cqa.adobe.io,REJECT'
+    - 'DOMAIN,ij0gdyrfka.adobe.io,REJECT'
+    - 'DOMAIN,dxyeyf6ecy.adobe.io,REJECT'
+    - 'DOMAIN,1hzopx6nz7.adobe.io,REJECT'
+    - 'DOMAIN,ph0f2h2csf.adobe.io,REJECT'
+    - 'DOMAIN,23ynjitwt5.adobe.io,REJECT'
+    - 'DOMAIN,crs.cr.adobe.com,REJECT'
+    - 'DOMAIN,www.photoshop.com,REJECT'
+    - 'DOMAIN,cc-cdn.adobe.com,REJECT'
+    - 'DOMAIN,photos.adobe.io,REJECT'
+    - 'DOMAIN,cc-api-data.adobe.io,REJECT'
+    - 'DOMAIN,lcs-cops.adobe.io,REJECT'
+    - 'DOMAIN,cai-splunk-proxy.adobe.io,REJECT'
+    - 'DOMAIN-KEYWORD,sjtu.edu.cn,DIRECT'
+    - 'DOMAIN-KEYWORD,linkedin,aaitr'
+    - 'DOMAIN-SUFFIX,okex.com,aaitr'
+    - 'DOMAIN-SUFFIX,oklink.com,aaitr'
+    - 'DOMAIN-SUFFIX,okx.com,aaitr'
+    - 'RULE-SET,SteamCN,DIRECT'
+    - 'RULE-SET,Bahamut,🇨🇳 Taiwan'
+    - 'RULE-SET,DMM,🇯🇵 Japan'
+    - 'RULE-SET,ChinaMax,DIRECT'
+    - 'DOMAIN,local.adguard.org,DIRECT'
+    - 'DOMAIN-SUFFIX,local,DIRECT'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT'
+    - 'IP-CIDR,17.0.0.0/8,DIRECT'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT'
+    - 'IP-CIDR,203.0.113.0/24,DIRECT'
+    - 'IP-CIDR,192.0.2.0/24,DIRECT'
+    - 'IP-CIDR6,fe80::/10,DIRECT'
+    - 'GEOIP,CN,DIRECT'
+    - 'GEOIP,LAN,DIRECT'
+    - 'MATCH,aaitr'
+
+    - 'DOMAIN,dog.ssrdog.com,aaitr'
+    - 'DOMAIN,ic.adobe.io,REJECT'
+    - 'DOMAIN,dyzt55url8.adobe.io,REJECT'
+    - 'DOMAIN,gw8gfjbs05.adobe.io,REJECT'
+    - 'DOMAIN,0mo5a70cqa.adobe.io,REJECT'
+    - 'DOMAIN,ij0gdyrfka.adobe.io,REJECT'
+    - 'DOMAIN,dxyeyf6ecy.adobe.io,REJECT'
+    - 'DOMAIN,1hzopx6nz7.adobe.io,REJECT'
+    - 'DOMAIN,ph0f2h2csf.adobe.io,REJECT'
+    - 'DOMAIN,23ynjitwt5.adobe.io,REJECT'
+    - 'DOMAIN,crs.cr.adobe.com,REJECT'
+    - 'DOMAIN,www.photoshop.com,REJECT'
+    - 'DOMAIN,cc-cdn.adobe.com,REJECT'
+    - 'DOMAIN,photos.adobe.io,REJECT'
+    - 'DOMAIN,cc-api-data.adobe.io,REJECT'
+    - 'DOMAIN,lcs-cops.adobe.io,REJECT'
+    - 'DOMAIN,cai-splunk-proxy.adobe.io,REJECT'
+    - 'DOMAIN-KEYWORD,sjtu.edu.cn,DIRECT'
+    - 'DOMAIN-KEYWORD,linkedin,aaitr'
+    - 'DOMAIN-SUFFIX,okex.com,aaitr'
+    - 'DOMAIN-SUFFIX,oklink.com,aaitr'
+    - 'DOMAIN-SUFFIX,okx.com,aaitr'
+    - 'RULE-SET,SteamCN,DIRECT'
+    - 'RULE-SET,Bahamut,🇨🇳 Taiwan'
+    - 'RULE-SET,DMM,🇯🇵 Japan'
+    - 'RULE-SET,ChinaMax,DIRECT'
+    - 'DOMAIN,local.adguard.org,DIRECT'
+    - 'DOMAIN-SUFFIX,local,DIRECT'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT'
+    - 'IP-CIDR,17.0.0.0/8,DIRECT'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT'
+    - 'IP-CIDR,203.0.113.0/24,DIRECT'
+    - 'IP-CIDR,192.0.2.0/24,DIRECT'
+    - 'IP-CIDR6,fe80::/10,DIRECT'
+    - 'GEOIP,CN,DIRECT'
+    - 'GEOIP,LAN,DIRECT'
+    - RULE-SET,Reject_Loyalsoldier,REJECT
+    - RULE-SET,Reject_AWAvenue,REJECT
+    - RULE-SET,Reject_antiAD,REJECT
+    - RULE-SET,Reject_BlackMatrix7,REJECT
+    - RULE-SET,Reject_ACL4SSR_BanAD,REJECT
+    - RULE-SET,Reject_ACL4SSR_BanProgramAD,REJECT
+    - RULE-SET,Reject_ACL4SSR_EasyListChina,REJECT
+    - RULE-SET,Reject_ACL4SSR_EasyList,REJECT
+    - RULE-SET,Reject_ACL4SSR_EasyPrivacy,REJECT
+    - RULE-SET,Reject_OISD_Small,REJECT
+    - RULE-SET,Reject_OISD_Big,REJECT
+    - 'MATCH,aaitr'
