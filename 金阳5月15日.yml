@@ -17,6 +17,19 @@ dns:
   proxy-server-nameserver:
   - 223.5.5.5
   - 119.29.29.29
+  nameserver-policy:
+    '+.sellersprite.com':
+    - 119.29.29.29
+    - 223.5.5.5
+    - 114.114.114.114
+    '+.tmkoo.com':
+    - 119.29.29.29
+    - 223.5.5.5
+    - 114.114.114.114
+    '+.amazonss.com':
+    - 119.29.29.29
+    - 223.5.5.5
+    - 114.114.114.114
   nameserver:
   - https://wrecking7857.com:44443/dns-query/7dcefedf-6186-4ed7-9e13-01bcbdc5d772
   - https://carrousel6917.com:44443/dns-query/7dcefedf-6186-4ed7-9e13-01bcbdc5d772
@@ -30,7 +43,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
   fake-ip-range: 198.18.0.1/15
+  fake-ip-filter-mode: blacklist
   fake-ip-filter:
+  - sellersprite.com
+  - '*.sellersprite.com'
+  - +.sellersprite.com
+  - '*.sellersprite.com.w.cdngslb.com'
+  - www.sellersprite.com.w.cdngslb.com
+  - all.sellersprite.com.w.cdngslb.com
+  - tmkoo.com
+  - '*.tmkoo.com'
+  - +.tmkoo.com
+  - amazonss.com
+  - '*.amazonss.com'
+  - +.amazonss.com
   - '*.lan'
   - '*.localdomain'
   - '*.example'
@@ -121,6 +147,15 @@ sniffer:
       override-destination: true
   enable: true
   skip-domain:
+  - sellersprite.com
+  - '*.sellersprite.com'
+  - +.sellersprite.com
+  - tmkoo.com
+  - '*.tmkoo.com'
+  - +.tmkoo.com
+  - amazonss.com
+  - '*.amazonss.com'
+  - +.amazonss.com
   - Mijia Cloud
   - dlg.io.mi.com
   parse-pure-ip: false
@@ -1276,7 +1311,15 @@ rule-providers:
     path: ./ruleset/Reject_OISD_Big.list
 rules:
 - DOMAIN-KEYWORD,sjtu.edu.cn,DIRECT
+- DOMAIN-SUFFIX,www.bigmodel.cn,DIRECT
+- DOMAIN-SUFFIX,sellersprite.com,DIRECT
+- DOMAIN-SUFFIX,amazonss.com,DIRECT
+- DOMAIN-SUFFIX,media-amazon.com,DIRECT
+- DOMAIN-SUFFIX,ssl-images-amazon.com,DIRECT
+- DOMAIN-SUFFIX,imagenloader.com,DIRECT
+- DOMAIN-KEYWORD,sellersprite.com,DIRECT
 - DOMAIN-SUFFIX,tmkoo.com,DIRECT
+- DOMAIN-SUFFIX,deepseek.com,DIRECT
 - DOMAIN,ic.adobe.io,REJECT
 - DOMAIN,dyzt55url8.adobe.io,REJECT
 - DOMAIN,gw8gfjbs05.adobe.io,REJECT
